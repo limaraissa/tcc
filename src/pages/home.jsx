@@ -9,12 +9,13 @@ import Header from '../componentes/heather'
 export default function home() {
   return (
   <main className='min-h-svh'>
+      
      <div className='bg-fundo'>
      <Header />
       
       <div className='bg-fundo'>
           
-          <h1 className='sm:flex text-5xl text-center text-white font-poppins font-bold block lg:hidden'>BAY<span className='text-vermelho'>MAX!</span></h1>
+          <h1 className='sm:flex text-5xl text-center text-white font-poppins font-bold block lg:hidden '>BAY<span className='text-vermelho'>MAX!</span></h1>
           <p className='sm:text-center text-white font-poppins m-10 text-xl text-wrap block lg:hidden '>Assim como no filme Big hero o personagem Baymax tem o objetivo de auxiliar na sua saúde. o  robo vem com a intenção de tornar seu dia a dia mais pratico e funcional venha conhecer mais sobre.</p>
           <div className='sm:flex sm:justify-center lg:flex lg:justify-end lg:space-x-80 '>
             <img src={baymax} alt="" className='sm:w-96 block lg:hidden' />
@@ -27,12 +28,12 @@ export default function home() {
           <img src={baymax} alt=""  className='translate-y-4 relative z-10 mt-0 z-20 hidden sm:block'/>
           <p className='text-white font-poppins text-xl relative mt-0 justify-end mr-40 z-10 mt-4 mb-4 hidden sm:block'>Assim como no filme Big hero o personagem Baymax <br/> tem o objetivo de auxiliar na sua saúde. o robo vem <br/> com a intenção de tornar seu dia a dia mais pratico e<br/> funcional venha conhecer mais sobre.<br/>
 
-          <button className='lg:text-white lg:text-xl lg:justify-center lg:mr-50 bg-red-600	lg:h-24 lg:w-72	lg:text-white lg:font-poppins lg:font-bold lg:rounded-2xl lg:mt-20 hidden sm:block	'>BAYMAX</button>
+          <button className='lg:text-white lg:text-xl lg:justify-center lg:mr-50 bg-reed	lg:h-24 lg:w-72	lg:text-white lg:font-poppins lg:font-bold lg:rounded-2xl lg:mt-20 hidden sm:block	'>BAYMAX</button>
           </p>
           
       </div>
 
-      
+
       
       <div className='flex items-center w-9/12 bg-fundo '>
         <div className='mt-36 pb-28 text-white space-y-6 font-poppins font-medium ml-36 text-lg float-start hidden sm:block'>

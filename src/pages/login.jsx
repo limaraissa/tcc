@@ -75,8 +75,8 @@ export default function App() {
                     <label htmlFor="termos" className="text-gray-700">Concordo com os <a href="#" className="text-blue-500 underline">termos e condições</a>.</label>
                 </div>
                 </form>
-            
-                <button className='bg-red-600 text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28 '>
+                
+                <button className='bg-reed text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28 '>
                 Entrar
                 </button>
             
