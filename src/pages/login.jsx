@@ -36,7 +36,7 @@ export default function App() {
                 </div>
             </form>
 
-            <button className='bg-red-600 text-white text-xl font-bold rounded-2xl h-12 w-60 mt-4 mb-4 ml-14 mr-14 lg:hidden '>
+            <button className='bg-reed text-white text-xl font-bold rounded-2xl h-12 w-60 mt-4 mb-4 ml-14 mr-14 lg:hidden '>
                 Entrar
             </button>
             
@@ -76,7 +76,7 @@ export default function App() {
                 </div>
                 </form>
                 
-                <button className='bg-reed text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28 sm:bg-vermelho text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28'>
+                <button className='bg-reed	 text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28 sm:bg-reed	 sm:text-white sm:text-xl sm:font-bold sm:rounded-2xl sm:h-12 sm:w-60 mt-12 ml-28'>
                 Entrar
                 </button>
             
