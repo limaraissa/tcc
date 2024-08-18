@@ -76,7 +76,7 @@ export default function App() {
                 </div>
                 </form>
                 
-                <button className='bg-reed text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28 '>
+                <button className='bg-reed text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28 sm:bg-vermelho text-white text-xl font-bold rounded-2xl h-12 w-60 mt-12 ml-28'>
                 Entrar
                 </button>
             

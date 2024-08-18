@@ -26,7 +26,11 @@ export default {
       },
       margin:{
         '50' : '39rem',
-      }
+        '100' : '55rem',
+      },
+      width:{
+        '80' : '10rem',
+      },
     },
   },
   plugins: [],
