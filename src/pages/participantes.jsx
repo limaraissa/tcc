@@ -5,7 +5,6 @@ import Header from '../componentes/heather'
 
 export default function participantes() {
   return(
-    <body className="bg-fundo font-poppins min-h-screen flex flex-col justify-center items-center">
       
       
       <main>
@@ -65,7 +64,7 @@ export default function participantes() {
           </section>
         </div>
       </main> 
-      </body>
+    
   
 
   )
