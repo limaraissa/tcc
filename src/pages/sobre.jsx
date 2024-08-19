@@ -80,6 +80,7 @@ export default function App() {
         <p className="text-white m-4 font-normal font-poppins text-base">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation m dolore eu fugiat nulla pariatur.  </p>
       </div>
       
+      
   </main>
   )
 }

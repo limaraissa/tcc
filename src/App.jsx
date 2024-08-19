@@ -4,6 +4,7 @@ import Login from './pages/login'
 import Sobre from './pages/sobre'
 import Participantes from './pages/participantes'
 import Equipamentos from './pages/equipamentos'
+import Funcoes from './pages/funçoes'
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
 
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path:"/equipamentos",
     element:<Equipamentos/>
+  },
+  {
+    path:"/funcoes",
+    element:<Funcoes/>
   },
 ])
 
