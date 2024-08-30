@@ -5,7 +5,7 @@ import Header from '../componentes/heather'
 
 export default function App() {
     return(
-    <main className='h-screen bg-fundo'>
+    <main className='bg-fundo'>
             <Header />
             <div className='bg-fundo '>
                 

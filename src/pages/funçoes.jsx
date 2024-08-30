@@ -6,7 +6,7 @@ import Header from '../componentes/heather'
 
 export default function App() {
   return (
-    <main className="bg-blue h-screen bg-no-repeat min-[400px]:h-[2700px] lg:h-[950px] ">
+    <main className="bg-blue bg-no-repeat min-[400px]:h-[2700px] lg:h-[950px] ">
 
         <Header />
 

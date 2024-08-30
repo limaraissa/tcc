@@ -2,20 +2,19 @@ import React from 'react'
 
 import img2 from '../public/image 17.png'
 import baymax from '../public/baymaxfundo.png'
-
 import Header from '../componentes/heather'
 
 
 export default function home() {
   return (
-  <main className='min-h-svh'>
+  <main className=' z-0'>
       
-     <div className='bg-fundo'>
+     <div className='bg-fundo '>
      <Header />
       
-      <div className='bg-fundo'>
+      <div className='bg-fundo z-0'>
           
-          <h1 className='sm:flex text-5xl text-center text-white font-poppins font-bold block lg:hidden '>BAY<span className='text-vermelho'>MAX!</span></h1>
+          <h1 className='sm:flex text-5xl text-center text-white font-poppins font-bold block mt-4 lg:hidden '>BAY<span className='text-vermelho'>MAX!</span></h1>
           <p className='sm:text-center text-white font-poppins m-10 text-xl text-wrap block lg:hidden '>Assim como no filme Big hero o personagem Baymax tem o objetivo de auxiliar na sua saúde. O robo vem com a intenção de tornar seu dia a dia mais prático e funcional venha conhecer mais.</p>
           <div className='sm:flex sm:justify-center lg:flex lg:justify-end lg:space-x-80 '>
             <img src={baymax} alt="" className='sm:w-96 block lg:hidden' />

@@ -12,21 +12,24 @@ export default function Header() {
   }
 
   return (
-    <header>
-      <div className={`sm:bg-fundo sm:flex sm:justify-between relative ${abrirMenu ? "overflow-hidden" : "overflow-visible"}`}>
-        
-        {/* Menu que aparece/desaparece */}
-        <div className={`bg-red-200 flex flex-col w-60 p-5 absolute top-0 right-0 gap-4 transition-all transform ${abrirMenu ? "translate-x-0" : "translate-x-full"} duration-300`}>
-          <Link to="/" className='text-slate-200 pt-1 hover:text-white lg:hidden'>HOME</Link>
-          <Link to="/equipamentos" className='text-slate-400 hover:text-white lg:hidden'>EQUIPAMENTOS</Link>
-          <Link to="/sobre" className='text-slate-400 hover:text-white lg:hidden'>SOBRE</Link>
-          <Link to="/participantes" className='text-slate-400 hover:text-white lg:hidden'>PARTICIPANTES</Link>
-          <Link to="/funcoes" className='text-slate-400 hover:text-white lg:hidden'>FUNÇÕES</Link>
-        </div>
+    <header className="top-0 left-0 w-full z-50 overflow-hidden">
+    <div className={`sm:bg-fundo sm:flex sm:justify-between relative ${abrirMenu ? "overflow-visible" : "overflow-hidden"}`}>
+      
+      {/* Menu que aparece/desaparece */}
+      <div className={`bg-white flex flex-col w-58 p-2 absolute top-0 right-0 gap-0.5 transition-all transform ${abrirMenu ? "translate-x-0 h-screen" : "translate-x-full h-0"} `}>
+        <Link to="/" className='text-slate-400  hover:text-white text-xs lg:hidden'>HOME</Link>
+        <Link to="/equipamentos" className='text-slate-400 hover:text-white text-xs lg:hidden'>EQUIPAMENTOS</Link>
+        <Link to="/sobre" className='text-slate-400 hover:text-white text-xs lg:hidden'>SOBRE</Link>
+        <Link to="/participantes" className='text-slate-400 hover:text-white text-xs lg:hidden'>PARTICIPANTES</Link>
+        <Link to="/funcoes" className='text-slate-400 hover:text-white text-xs lg:hidden'>FUNÇÕES</Link>
+      </div>
 
-        {/* Logo e Ícone do Menu */}
-        <img src={logoimg} alt="Logo" className='justify-start'/>
-        <img src={menu} onClick={handleAbrir} alt="Menu" className='sm:w-10 h-10 mt-8 block lg:hidden cursor-pointer'/>
+        <div className='flex items-center space-x-40'>
+            {/* Logo e Ícone do Menu */}
+            <img src={logoimg} alt="Logo" className='justify-start'/>
+            <img src={menu} onClick={handleAbrir} alt="Menu" className='sm:w-10 h-10 mt-8 block justify-end lg:hidden cursor-pointer'/>
+        </div>
+          
         
         {/* Links visíveis em telas grandes */}
         <div className='lg:flex items-start space-y-1 mt-6 justify-center font-poppins text-base font-bold hidden sm:block'>

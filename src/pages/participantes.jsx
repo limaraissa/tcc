@@ -9,7 +9,7 @@ export default function participantes() {
       
       <main>
         <Header />
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className=" flex flex-col justify-center items-center">
           
       
         <h1 className="text-whitee font-bold text-center min-[430px]:text-4xl pt-11 lg:text-7xl "><span className="text-red font-bold min-[430px]:text-4xl lg:text-7xl">BAY</span>MAX!</h1>

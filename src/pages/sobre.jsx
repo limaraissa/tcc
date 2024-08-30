@@ -12,11 +12,11 @@ import Baymax from "../public/baymaxfundo.png"
 
 export default function App() {
   return (
-    <main className="bg-blue h-screen bg-no-repeat min-[400px]:h-[2700px] lg:h-[990px] ">
+    <main className="bg-blue bg-no-repeat min-[400px]:h-[2700px] lg:h-[990px] ">
 
       <Header/>
-      
-      <h1 className="text-whitee font-bold text-center min-[430px]:text-4xl pt-11 lg:text-7xl "><span className="text-red font-bold min-[430px]:text-4xl lg:text-7xl">BAY</span>MAX!</h1>
+      <h1 className='lg:text-white lg:font-poppins lg:font-bold lg:text-9xl lg:flex  lg:mr-12 lg:ml-100 lg:relative lg:mt-36 hidden sm:block md:block'>BAY<span className='text-vermelho'>MAX!</span></h1>
+      <h1 className='sm:flex text-5xl text-center text-white font-poppins font-bold block mt-4 lg:hidden '>BAY<span className='text-vermelho'>MAX!</span></h1>
       <section className="text-white opacity-70 font-light text-[20px] flex justify-center items-center h-[31px] ">
           <h1>Sobre</h1>
       </section>
