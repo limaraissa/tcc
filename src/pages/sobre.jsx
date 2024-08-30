@@ -16,8 +16,10 @@ export default function App() {
 
       <Header/>
       
-       <h1 className="text-whitee font-bold text-center min-[400px]:text-4xl pt-11 lg:text-7xl "><span className="text-red font-bold min-[430px]:text-4xl lg:text-7xl">BAY</span>MAX!</h1>
-       <p className=" text-center text-gray pt-4 ">sobre o dispositivo</p>
+      <h1 className="text-whitee font-bold text-center min-[430px]:text-4xl pt-11 lg:text-7xl "><span className="text-red font-bold min-[430px]:text-4xl lg:text-7xl">BAY</span>MAX!</h1>
+      <section className="text-white opacity-70 font-light text-[20px] flex justify-center items-center h-[31px] ">
+          <h1>Sobre</h1>
+      </section>
        
 
        <br className="min-[400px]:hidden"/>

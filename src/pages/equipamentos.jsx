@@ -16,7 +16,9 @@ export default function App() {
     
 
         <h1 className="text-whitee font-bold text-center min-[430px]:text-4xl pt-11 lg:text-7xl "><span className="text-red font-bold min-[430px]:text-4xl lg:text-7xl">BAY</span>MAX!</h1>
-        <p className=" text-center -ml-[50px] text-gray font-poppins-light text-[20px]  py-190 ">Equipamentos</p>
+        <section className="text-white opacity-70 font-light text-[20px] flex justify-center items-center h-[31px] ">
+            <h1>Equipamentos</h1>
+        </section>
 
         <div className="lg:flex text-center items-center bg-fundo lg:ml-96 lg:mr-[30px]">
 

@@ -34,17 +34,17 @@ export default function home() {
 
 
       
-      <div className='flex items-center w-9/12 bg-fundo '>
-        <div className='mt-36 pb-28 text-white space-y-6 font-poppins font-medium ml-36 text-lg float-start hidden sm:block'>
-          <p className=''>O primeiro artigo destaca como a tecnologia está beneficiando<br/> a saúde, e explora o <br/> desenvolvimento de novos materiais e novas<br/> ferramentas, transformando e inovando a <br/> área dasaúde.</p>
-          <p className=''>O segundo artigo vai falar sobre os avanços<br/> da tecnologia na área da saúde. O instituto<br/> IAM é uma comunidade dedicada a pesquisa<br/> do desenvolvimento de sistemas onde foram<br/> feitos testes que possibilitaram a aplicação<br/> de rôbos na medicina.</p>
-          <p >Já o terceiro artigo vai falar sobre como os<br/> rôbos reduzem drasticamente o tempo de<br/> execução das tarefas , impulsionando a<br/> eficiência operacional, não precisam de<br/> férias ou adoecem, garantindo operações<br/> continuas e consistentes e eles também<br/> mantêm precisão constante evitando falhas.</p>
-        
-        </div>
-        <div className='flex items-center '>
-          <img src={img2} alt="" className='ml-48 hidden sm:block' />
-        </div>
+      <div className='flex items-center justify-center w-9/12 mx-auto bg-fundo space-x-44'>
+      <div className='mt-36 pb-28 text-white space-y-6 font-poppins font-medium text-lg hidden sm:block'>
+        <p>O primeiro artigo destaca como a tecnologia está<br/>  beneficiando a saúde, e explora o <br/> desenvolvimento de novos materiais e novas<br/> ferramentas, transformando e inovando a <br/> área dasaúde.</p>
+        <p>O segundo artigo vai falar sobre os avanços<br/> da tecnologia na área da saúde. O instituto<br/> IAM é uma comunidade dedicada a pesquisa<br/> do desenvolvimento de sistemas onde foram<br/> feitos testes que possibilitaram a aplicação<br/> de rôbos na medicina.</p>
+        <p>Já o terceiro artigo vai falar sobre como os<br/> rôbos reduzem drasticamente o tempo de<br/> execução das tarefas, impulsionando a<br/> eficiência operacional, não precisam de<br/> férias ou adoecem, garantindo operações<br/> continuas e consistentes e eles também<br/> mantêm precisão constante evitando falhas.</p>
       </div>
+      <div className='ml-12 flex items-center justify-center'>
+        <img src={img2} alt="" className='hidden sm:block' />
+      </div>
+</div>
+
 
     </div>
   </main>
