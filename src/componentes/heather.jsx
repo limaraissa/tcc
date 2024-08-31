@@ -16,12 +16,12 @@ export default function Header() {
     <div className={`sm:bg-fundo sm:flex sm:justify-between relative ${abrirMenu ? "overflow-visible" : "overflow-hidden"}`}>
       
       {/* Menu que aparece/desaparece */}
-      <div className={`bg-white flex flex-col w-58 p-2 absolute top-0 right-0 gap-0.5 transition-all transform ${abrirMenu ? "translate-x-0 h-screen" : "translate-x-full h-0"} `}>
+      <div className={`bg-blue flex flex-col w-58 p-2 absolute top-0 right-0 gap-0.5 transition-all transform ${abrirMenu ? "translate-x-0 h-screen" : "translate-x-full h-0"} `}>
         <Link to="/" className='text-slate-400  hover:text-white text-xs lg:hidden'>HOME</Link>
         <Link to="/equipamentos" className='text-slate-400 hover:text-white text-xs lg:hidden'>EQUIPAMENTOS</Link>
         <Link to="/sobre" className='text-slate-400 hover:text-white text-xs lg:hidden'>SOBRE</Link>
         <Link to="/participantes" className='text-slate-400 hover:text-white text-xs lg:hidden'>PARTICIPANTES</Link>
-        <Link to="/funcoes" className='text-slate-400 hover:text-white text-xs lg:hidden'>FUNÇÕES</Link>
+        
       </div>
 
         <div className='flex items-center space-x-40'>
@@ -36,8 +36,8 @@ export default function Header() {
           <Link to="/" className='text-slate-400 pt-1 hover:text-white hidden sm:block'>HOME</Link>
           <Link to="/equipamentos" className='text-slate-400 ml-24 mr-12 hover:text-white hidden sm:block'>EQUIPAMENTOS</Link>
           <Link to="/sobre" className='text-slate-400 mr-12 ml-12 hover:text-white hidden sm:block'>SOBRE</Link>
-          <Link to="/participantes" className='text-slate-400 mr-12 ml-10 hover:text-white hidden sm:block'>PARTICIPANTES</Link>
-          <Link to="/funcoes" className='text-slate-400 mr-72 ml-10 hover:text-white hidden sm:block'>FUNÇÕES</Link>
+          <Link to="/participantes" className='text-slate-400 mr-72 ml-10 hover:text-white hidden sm:block'>PARTICIPANTES</Link>
+          
           <a href="/login">
             <img src={login} alt="Login" className='sm:block lg:justify-end ml-auto mr-12 hidden'/>
           </a>

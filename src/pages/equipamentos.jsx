@@ -20,10 +20,9 @@ export default function App() {
           <Header/>
         </div>
         
-    
-      
-        <h1 className='lg:text-white lg:font-poppins lg:font-bold lg:text-9xl lg:flex  lg:mr-12 lg:ml-100 lg:relative lg:mt-36 hidden sm:block md:block'>BAY<span className='text-vermelho'>MAX!</span></h1>
-        <h1 className='sm:flex text-5xl text-center text-white font-poppins font-bold block mt-4 lg:hidden '>BAY<span className='text-vermelho'>MAX!</span></h1>
+        <h1 className='sm:flex sm:text-5xl text-center text-white font-poppins font-bold mt-4 lg:pt-11 lg:text-7xl lg:hidden '>BAY<span className='text-vermelho '>MAX!</span></h1>
+        <h1 className="text-white font-bold text-center  pt-11 text-7xl min-[hidden]">BAY<span className="text-vermelho font-bold  lg:text-7xl">MAX!</span></h1>
+
         <section className="text-white opacity-70 font-light text-[20px] flex justify-center items-center h-[31px] ">
             <h1>Equipamentos</h1>
         </section>
