@@ -21,14 +21,16 @@ export default function Header() {
         <Link to="/equipamentos" className='text-slate-400 hover:text-white text-xs lg:hidden'>EQUIPAMENTOS</Link>
         <Link to="/sobre" className='text-slate-400 hover:text-white text-xs lg:hidden'>SOBRE</Link>
         <Link to="/participantes" className='text-slate-400 hover:text-white text-xs lg:hidden'>PARTICIPANTES</Link>
-        
+        <Link to="/funcoes" className='text-slate-400 hover:text-white text-xs lg:hidden'>FUNÇÕES</Link>
       </div>
 
-        <div className='flex items-center space-x-40'>
-            {/* Logo e Ícone do Menu */}
-            <img src={logoimg} alt="Logo" className='justify-start'/>
-            <img src={menu} onClick={handleAbrir} alt="Menu" className='sm:w-10 h-10 mt-8 block justify-end lg:hidden cursor-pointer'/>
-        </div>
+      <div className='flex items-center justify-between px-4'>
+        {/* Logo */}
+        <img src={logoimg} alt="Logo" className='w-auto h-auto' />
+        {/* Ícone do Menu */}
+        <img src={menu} onClick={handleAbrir} alt="Menu" className='sm:w-10 h-10 mt-8 cursor-pointer lg:hidden' />
+      </div>
+
           
         
         {/* Links visíveis em telas grandes */}
@@ -36,7 +38,9 @@ export default function Header() {
           <Link to="/" className='text-slate-400 pt-1 hover:text-white hidden sm:block'>HOME</Link>
           <Link to="/equipamentos" className='text-slate-400 ml-24 mr-12 hover:text-white hidden sm:block'>EQUIPAMENTOS</Link>
           <Link to="/sobre" className='text-slate-400 mr-12 ml-12 hover:text-white hidden sm:block'>SOBRE</Link>
+          <Link to="/funcoes" className='text-slate-400 mr-12 ml-10 hover:text-white hidden sm:block'>FUNÇÕES</Link>
           <Link to="/participantes" className='text-slate-400 mr-72 ml-10 hover:text-white hidden sm:block'>PARTICIPANTES</Link>
+          
           
           <a href="/login">
             <img src={login} alt="Login" className='sm:block lg:justify-end ml-auto mr-12 hidden'/>

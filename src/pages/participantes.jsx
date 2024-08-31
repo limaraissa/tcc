@@ -24,7 +24,7 @@ export default function participantes() {
                 <img src={isabella} alt="isabella" />
               </div>
               <div>
-                <h1 className="text-red font-semibold text-[24px] text-center">Isabella Genuino</h1>
+                <h3 className="text-red font-semibold text-[24px] text-center">Isabella Genuino</h3>
               </div>
               <div className="text-center sm:mt-[10px]">
                 <p><span className="font-bold">Idade:</span> 17 anos.</p>
@@ -37,7 +37,7 @@ export default function participantes() {
                 <img src={jovana} alt="Giovana" />
               </div>
               <div>
-                <h1 className="text-red font-semibold text-[24px] text-center">Giovana Rodrigues</h1>
+                <h4 className="text-red font-semibold text-[24px] text-center">Giovana Rodrigues</h4>
               </div>
               <div className="text-center sm:mt-[10px]">
                 <p><span className="font-bold">Idade:</span> 18 anos.</p>
@@ -45,18 +45,18 @@ export default function participantes() {
               </div>
             </section>
       
-            <section className="bg-white mx-auto sm:w-[345px] sm:h-[488px] mt-[40px] grid place-items-center rounded-[8px]">
+            <div className="bg-white mx-auto sm:w-[345px] sm:h-[488px] mt-[40px] grid place-items-center rounded-[8px]">
               <div className="sm:w-[201px] sm:h-[194px] mt-[41px]">
                 <img src={raissa} alt="Raissa" />
               </div>
               <div>
-                <h1 className="text-red font-semibold text-[24px] text-center">Raissa Fabricio</h1>
+                <h5 className="text-red font-semibold text-[24px] text-center">Raissa Fabricio</h5>
               </div>
-              <div className="text-center sm:mt-[10px]">
+              <div className="text-center sm:mt-[0px]">
                 <p><span className="font-bold">Idade:</span> 17 anos.</p>
                 <p><span className="font-bold">Formação:</span> Unasp - Técnico de informática.</p>
               </div>
-            </section>
+            </div>
           </section>
         </div>
       </main> 

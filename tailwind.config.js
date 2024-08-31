@@ -19,6 +19,8 @@ export default {
         'whiteee' : 'rgba(255, 255, 255, 0.5)',
         'dark-bluee' : '#000511',
         'blue':'#000718',
+        
+        
       },
       fontFamily:{
         poppins :['Poppins', 'sans-serif'],
