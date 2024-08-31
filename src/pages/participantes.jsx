@@ -15,7 +15,7 @@ export default function participantes() {
         <h1 className="text-whitee font-bold text-center min-[430px]:text-4xl pt-11 lg:text-7xl "><span className="text-red font-bold min-[430px]:text-4xl lg:text-7xl">BAY</span>MAX!</h1>
       
           <section className="text-white opacity-70 font-light text-[20px] flex justify-center items-center h-[31px] ">
-            <h1>Participantes</h1>
+            <h2>Participantes</h2>
           </section>
       
           <section className="lg:flex lg:justify-between sm:items-center  sm:p-8 w-full max-w-[1200px]">
