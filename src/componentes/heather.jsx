@@ -29,7 +29,7 @@ export default function Header() {
         {/* Logo */}
         <img src={logoimg} alt="Logo" className='w-auto h-auto' />
         {/* Ícone do Menu */}
-        <img src={menu} onClick={handleAbrir} alt="Menu" className='sm:w-10 h-10 mt-8 cursor-pointer lg:hidden' />
+        <img src={menu} onClick={handleAbrir} alt="Menu" className='sm:w-10 h-10 cursor-pointer lg:hidden' />
       </div>
 
           
