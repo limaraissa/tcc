@@ -17,11 +17,12 @@ export default function Header() {
       
       {/* Menu que aparece/desaparece */}
       <div className={`bg-blue flex flex-col w-58 p-2 absolute top-0 right-0 gap-0.5 transition-all transform ${abrirMenu ? "translate-x-0 h-screen" : "translate-x-full h-0"} `}>
-        <Link to="/" className='text-slate-400  hover:text-white text-xs lg:hidden'>HOME</Link>
-        <Link to="/equipamentos" className='text-slate-400 hover:text-white text-xs lg:hidden'>EQUIPAMENTOS</Link>
-        <Link to="/sobre" className='text-slate-400 hover:text-white text-xs lg:hidden'>SOBRE</Link>
-        <Link to="/participantes" className='text-slate-400 hover:text-white text-xs lg:hidden'>PARTICIPANTES</Link>
-        <Link to="/funcoes" className='text-slate-400 hover:text-white text-xs lg:hidden'>FUNÇÕES</Link>
+        <Link to="/" className='text-slate-400  hover:text-cyan-400 text-xs lg:hidden'>HOME</Link>
+        <Link to="/equipamentos" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>EQUIPAMENTOS</Link>
+        <Link to="/sobre" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>SOBRE</Link>
+        <Link to="/funcoes" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>FUNÇÕES</Link>
+        <Link to="/participantes" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>PARTICIPANTES</Link>
+        
       </div>
 
       <div className='flex items-center justify-between px-4'>

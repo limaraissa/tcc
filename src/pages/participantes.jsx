@@ -16,7 +16,7 @@ export default function Participantes() {
           <h2>Participantes</h2>
         </section>
 
-        <section className="lg:flex lg:justify-between sm:items-center w-full max-w-[1200px] px-4 sm:px-8"> 
+        <section className="lg:flex lg:justify-between sm:items-center w-full max-w-[1200px] px-8 sm:px-8"> 
           <section className="bg-white mx-auto sm:w-[345px] sm:h-[488px] mt-[40px] grid place-items-center rounded-[8px]">
             <div className="sm:w-[201px] sm:h-[194px] mt-[41px]">
               <img src={isabella} alt="isabella" />
