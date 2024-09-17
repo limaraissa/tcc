@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Adicione este CSS ao seu arquivo global de estilos */
+.rotate-360 {
+    transform: rotate(360deg);
+  }
+  
