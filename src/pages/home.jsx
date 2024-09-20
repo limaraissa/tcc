@@ -33,18 +33,21 @@ export default function Home() {
           <img src={baymax} alt="" className='flex translate-y-4 relative z-10 mt-0 z-20 ml-20 hidden sm:block md:block' />
           <p className='flex text-white font-poppins font-light text-2xl relative mr-20 ml-52 z-10 mt-4 mb-4 hidden sm:block md:block'>
             Assim como no filme Big hero o personagem Baymax <br /> tem o objetivo de auxiliar na sua saúde. O robô vem <br /> com a intenção de tornar seu dia a dia mais prático e<br/> funcional venha conhecer mais.<br />
-            <button 
-              className='bg-vermelho flex lg:text-white lg:text-xl lg:justify-center lg:mr-50 bg-reed lg:h-24 lg:w-72 lg:text-white lg:font-poppins lg:font-bold lg:rounded-2xl lg:mt-20 hidden sm:block' 
-              onClick={scrollToTargetDiv} // Adiciona o evento de clique
-            >
-              BAYMAX
-            </button>
+          <button 
+          className='bg-vermelho flex lg:text-white lg:text-xl lg:justify-center lg:mr-50 bg-reed lg:h-24 lg:w-72 lg:text-white lg:font-poppins lg:font-bold lg:rounded-2xl lg:mt-20 hover:bg-blue border-transparent border-2 hover:border-white hidden sm:block' 
+          onClick={scrollToTargetDiv}
+          >
+            REFERENCIAS
+          </button>
+
           </p>
         </div>
 
         {/* A div de destino que queremos rolar até ela */}
         <div ref={targetDivRef} className='flex items-center justify-center w-9/12 mx-auto bg-fundo space-x-44 mt-36 pb-28'>
-          <div className='text-white space-y-6 font-poppins font-medium text-lg hidden sm:block'>
+          
+          <div className='text-slate-50 space-y-6 font-poppins font-medium text-lg hidden sm:block'>
+            <h2 className=' lg:text-white lg:text-2xl lg:bg-vermelho lg:rounded-lg'>Referencias para a criação do projeto</h2>
             <p>O primeiro artigo destaca como a tecnologia está<br/>  beneficiando a saúde, e explora o <br/> desenvolvimento de novos materiais e novas<br/> ferramentas, transformando e inovando a <br/> área dasaúde.</p>
             <p>O segundo artigo vai falar sobre os avanços<br/> da tecnologia na área da saúde. O instituto<br/> IAM é uma comunidade dedicada a pesquisa<br/> do desenvolvimento de sistemas onde foram<br/> feitos testes que possibilitaram a aplicação<br/> de rôbos na medicina.</p>
             <p>Já o terceiro artigo vai falar sobre como os<br/> rôbos reduzem drasticamente o tempo de<br/> execução das tarefas, impulsionando a<br/> eficiência operacional, não precisam de<br/> férias ou adoecem, garantindo operações<br/> continuas e consistentes e eles também<br/> mantêm precisão constante evitando falhas.</p>

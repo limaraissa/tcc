@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       colors:{
         'fundo':'#000718',
         'vermelho':'#AF1225',
@@ -19,6 +20,7 @@ export default {
         'whiteee' : 'rgba(255, 255, 255, 0.5)',
         'dark-bluee' : '#000511',
         'blue':'#000718',
+        'mobile': '#010D2C',
         
         
       },

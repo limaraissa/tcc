@@ -43,9 +43,7 @@ export default function Header() {
           <Link to="/participantes" className='text-slate-400 mr-72 ml-10 hover:text-white hidden sm:block'>PARTICIPANTES</Link>
           
           
-          <a href="/login">
-            <img src={login} alt="Login" className='sm:block lg:justify-end ml-auto mr-12 hidden'/>
-          </a>
+          
         </div>
       </div>
     </header>

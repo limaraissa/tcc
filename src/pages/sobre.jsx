@@ -14,15 +14,15 @@ export default function App() {
       <Header />
 
       <h1 className="text-white font-bold text-center pt-11 text-7xl">BAY<span className="text-vermelho font-bold lg:text-7xl">MAX!</span></h1>
-      <p className="text-center text-gray pt-4">sobre o dispositivo</p>
+      <p className="text-center text-white pt-4">sobre o dispositivo</p>
 
       <div className="relative lg:hidden">
-        <img className="absolute top-[-110px] left-0" src={Baymax} alt="" />
+        <img className="absolute top-0 left-0" src={Baymax} alt="" />
       </div>
 
       {/* Seção visível apenas em telas pequenas (sm até lg) */}
-      <section className="block lg:hidden">
-        <div className="bg-bluee m-10 p-8 rounded shadow-2xl z-10">
+      <section className="block  lg:hidden ">
+        <div className="bg-mobile m-10 p-8 rounded shadow-2xl">
           <h2 className="text-azul-claro m-4 font-semibold font-poppins text-lg">Monitoramento Pessoal</h2>
           <p className="text-white m-2 font-poppins font-light text-base">O monitoramento pessoal é essencial para melhorar o bem-estar e a produtividade. Ele permite acompanhar hábitos e progresso, identificar problemas precoces e ajustar comportamentos de forma proativa.</p>
           <img className="float-right  pl-6 flex" src={Mini} alt="mini personagem" />
@@ -30,7 +30,7 @@ export default function App() {
 
         <br />
 
-        <div className="bg-bluee m-10 p-8 rounded shadow-2xl">
+        <div className="bg-mobile m-10 p-8 rounded shadow-2xl">
           <img className="float-right" src={coracao2} alt="imagem do coração" />
           <h2 className="text-azul-claro mx-4 font-semibold font-poppins text-lg">Suporte emocional</h2>
           <p className="text-white m-4 font-poppins font-normal text-base">Os bichinhos de pelúcia desempenham um papel significativo no desenvolvimento emocional das crianças. Esses brinquedos proporcionam conforto, segurança e apoio emocional.</p>
