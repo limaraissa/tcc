@@ -13,6 +13,7 @@ export default {
         'white': 'rgb(255 255 255);',
         'gray': '#3C3C3C',
         'bluee':'#010D2C',
+        'azulfora': '#001233',
         'azul-claro':'#3563D2',
         'red': 'rgba(175, 18, 37, 0.75)',
         'reed': '#D4132B',
