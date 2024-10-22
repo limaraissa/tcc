@@ -71,7 +71,7 @@ export default function App() {
                     <div class="mt-14 max-w-4xl w-full mx-auto">
                         <div class="aspect-video">
                             <iframe class="w-full h-full rounded-lg shadow-lg" 
-                                    src="https://www.youtube.com/embed/ZSM3w1v-A_Y" 
+                                    src="https://www.youtube.com/embed/nSvxVCdj_gU" 
                                     title="YouTube video player" 
                                     frameborder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

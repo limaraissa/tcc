@@ -6,9 +6,12 @@ import Dis from "../assets/display.png";
 import Boneco from "../assets/boneco.png";
 import Arduino from "../assets/arduino.png";
 import Header from '../componentes/heather';
+import df from "../assets/image.png";
+import auto from "../assets/autofalante.png";
+import hc from "../assets/hc-05.png";
+import bz from "../assets/buzzer.png";
 
 export default function App() {
-  // Estados para controlar a rotação de cada imagem
   const [isRotated, setIsRotated] = useState({
     coracao: false,
     temp: false,
@@ -18,7 +21,6 @@ export default function App() {
     boneco: false,
   });
 
-  // Função para alternar a rotação de uma imagem específica
   const handleRotate = (item) => {
     setIsRotated((prevState) => ({
       ...prevState,
@@ -32,43 +34,66 @@ export default function App() {
         <Header />
       </div>
       
-      <h1 className="text-white font-bold text-center pt-11 text-7xl">BAY<span className="text-vermelho font-bold lg:text-7xl">MAX!</span></h1>
+      <h1 className="text-white font-bold text-center pt-11 text-7xl">
+        BAY<span className="text-vermelho font-bold lg:text-7xl">MAX!</span>
+      </h1>
 
       <section className="text-white opacity-70 font-light text-[20px] flex justify-center items-center h-[31px]">
         <h2>Equipamentos</h2>
       </section>
 
-      {/* Container principal para centralizar em telas pequenas e grandes */}
       <div className="flex flex-col items-center justify-center lg:flex-row lg:flex-wrap lg:justify-center lg:px-8 bg-fundo">
         
         <div className="w-[300px] h-[500px] mt-[40px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
           <img 
             src={Coracao} 
             alt="sensor" 
-            className={`transition-transform duration-1000 ease-in-out ${isRotated.coracao ? 'rotate-360' : ''}`}
+            className={`w-[200px] h-[300px] transition-transform duration-1000 ease-in-out ${isRotated.coracao ? 'rotate-360' : ''}`}
             onClick={() => handleRotate('coracao')}
           />
-          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">Sensor de Pulso e Frequência Cardíaca</h1>
+          <h1 className="font-semibold text-[29px] w-[287px] text-center mt-4">
+            Sensor de Pulso e Frequência Cardíaca
+          </h1>
+          <p className="text-center mt-2">R$23,67</p>
         </div>
 
         <div className="w-[300px] h-[500px] mt-[40px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
           <img 
             src={Temp} 
             alt="sensor" 
-            className={`transition-transform duration-1000 ease-in-out ${isRotated.temp ? 'rotate-360' : ''}`}
+            className={`w-[200px] h-[300px] transition-transform duration-1000 ease-in-out ${isRotated.temp ? 'rotate-360' : ''}`}
             onClick={() => handleRotate('temp')}
           />
-          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">DS1820 temperatura</h1>
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">
+            DS1820 temperatura
+          </h1>
+          <p className="text-center mt-2">R$13,20</p>
         </div>
 
         <div className="w-[300px] h-[500px] mt-[40px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
           <img 
             src={Arduino} 
             alt="placa" 
-            className={`transition-transform duration-1000 ease-in-out ${isRotated.arduino ? 'rotate-360' : ''}`}
+            className={`w-[200px] h-[300px] transition-transform duration-1000 ease-in-out ${isRotated.arduino ? 'rotate-360' : ''}`}
             onClick={() => handleRotate('arduino')}
           />
-          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">Arduino Uno</h1>
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">
+            Arduino Uno
+          </h1>
+          <p className="text-center mt-2">$100</p>
+        </div>
+
+        <div className="w-[300px] h-[500px] mt-[40px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
+          <img 
+            src={bz} 
+            alt="placa" 
+            className={`w-[200px] h-[200px] transition-transform duration-1000 ease-in-out ${isRotated.arduino ? 'rotate-360' : ''}`}
+            onClick={() => handleRotate('arduino')}
+          />
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-20">
+            Buzzer
+          </h1>
+          <p className="text-center mt-2">R$1,88</p>
         </div>
 
       </div>
@@ -77,22 +102,30 @@ export default function App() {
         
         <div className="w-[300px] h-[500px] mt-[50px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
           <img 
-            src={Mod} 
+            src={df} 
             alt="modulo" 
-            className={`transition-transform duration-1000 ease-in-out ${isRotated.mod ? 'rotate-360' : ''}`}
+            className={`w-[200px] h-[300px] transition-transform duration-1000 ease-in-out ${isRotated.mod ? 'rotate-360' : ''}`}
             onClick={() => handleRotate('mod')}
           />
-          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">Módulo WiFi + Bluetooth ESP32</h1>
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">
+           DFplayer mini
+          </h1>
+          <p className="text-center mt-2">R$24,48</p>
         </div>
+
+        
 
         <div className="w-[300px] h-[500px] mt-[50px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
           <img 
-            src={Dis} 
+            src={hc} 
             alt="display" 
-            className={`transition-transform duration-1000 ease-in-out ${isRotated.dis ? 'rotate-360' : ''}`}
+            className={`w-[200px] h-[300px] transition-transform duration-1000 ease-in-out ${isRotated.dis ? 'rotate-360' : ''}`}
             onClick={() => handleRotate('dis')}
           />
-          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">Display LCD 16x2</h1>
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">
+            Módulo HC-05
+          </h1>
+          <p className="text-center mt-2">R$40,76</p>
         </div>
 
         <div className="w-[300px] h-[500px] mt-[50px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
@@ -102,9 +135,26 @@ export default function App() {
             className={`transition-transform duration-1000 ease-in-out ${isRotated.boneco ? 'rotate-360' : ''}`}
             onClick={() => handleRotate('boneco')}
           />
-          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">Módulo RTC DS1302</h1>
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">
+            Pelucia Baymax
+          </h1>
+          <p className="text-center mt-2">$150</p>
         </div>
 
+        <div className="w-[300px] h-[500px] mt-[50px] bg-white rounded-[10px] flex flex-col items-center justify-center lg:w-[325px] lg:mx-4 lg:mt-[20px]">
+          <img 
+            src={auto} 
+            alt="autofalante" 
+            className={`transition-transform duration-1000 ease-in-out ${isRotated.boneco ? 'rotate-360' : ''}`}
+            onClick={() => handleRotate('boneco')}
+          />
+          <h1 className="font-semibold text-[32px] w-[287px] text-center mt-4">
+            Auto falante
+          </h1>
+          <p className="text-center mt-2">R$12,90</p>
+        </div>
+
+        
       </div>
     </main>
   );
