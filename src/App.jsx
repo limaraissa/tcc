@@ -5,6 +5,7 @@ import Sobre from './pages/sobre'
 import Participantes from './pages/participantes'
 import Equipamentos from './pages/equipamentos'
 import Funcoes from "./pages/funcoes"
+import Jogo from "./pages/jogo"
 import {createBrowserRouter,RouterProvider} from "react-router-dom"
 
 
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path:"/funcoes",
     element:<Funcoes/>
+  },
+  {
+    path:"/jogo",
+    element:<Jogo/>
   },
   
 ])

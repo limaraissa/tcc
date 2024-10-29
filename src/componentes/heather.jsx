@@ -21,6 +21,7 @@ export default function Header() {
         <Link to="/equipamentos" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>EQUIPAMENTOS</Link>
         <Link to="/sobre" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>SOBRE</Link>
         <Link to="/funcoes" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>FUNÇÕES</Link>
+        <Link to="/jogo" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>JOGO</Link>
         <Link to="/participantes" className='text-slate-400 hover:text-cyan-400 text-xs lg:hidden'>PARTICIPANTES</Link>
         
       </div>
@@ -40,6 +41,7 @@ export default function Header() {
           <Link to="/equipamentos" className='text-slate-400 ml-24 mr-12 hover:text-white hidden sm:block'>EQUIPAMENTOS</Link>
           <Link to="/sobre" className='text-slate-400 mr-12 ml-12 hover:text-white hidden sm:block'>SOBRE</Link>
           <Link to="/funcoes" className='text-slate-400 mr-12 ml-10 hover:text-white hidden sm:block'>FUNÇÕES</Link>
+          <Link to="/jogo" className='text-slate-400 mr-12 ml-10 hover:text-white hidden sm:block'>JOGO</Link>
           <Link to="/participantes" className='text-slate-400 mr-72 ml-10 hover:text-white hidden sm:block'>PARTICIPANTES</Link>
           
           

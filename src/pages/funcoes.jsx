@@ -56,17 +56,18 @@ export default function App() {
                         <div className="bg-bluee p-6 rounded-lg shadow-lg">
                             <h2 className="text-reed text-2xl font-bold mb-4 font-montserrat font-light">Instrução 1</h2>
                             <p className="text-white text-sm">
-                                Aqui você pode adicionar as instruções detalhadas de uso do produto ou serviço. Explicando como realizar as funções principais de forma eficaz.
+                                Conecte a bateria no arduino ide.
                             </p>
                         </div>
 
                         <div className="bg-bluee p-6 rounded-lg shadow-lg">
                             <h2 className="text-reed text-2xl font-bold mb-4 font-montserrat font-light">Instrução 2</h2>
                             <p className="text-white text-sm">
-                                Explicações adicionais sobre como utilizar recursos avançados ou evitar erros comuns.
+                               Coloque seu braço no sensor de temperatura e retire quando ouvir um apito do buzzer.
                             </p>
                         </div>
                     </div>
+                    
 
                     <div class="mt-14 max-w-4xl w-full mx-auto">
                         <div class="aspect-video">
@@ -83,7 +84,7 @@ export default function App() {
                 </section>
 
                 
-           </main>
-  )
+            </main>
+    )
 }
          
