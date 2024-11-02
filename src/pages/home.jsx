@@ -48,9 +48,9 @@ export default function Home() {
           
           <div className='text-slate-50 space-y-6 font-poppins font-medium text-lg hidden sm:block'>
             <h2 className=' lg:text-white lg:text-2xl lg:bg-vermelho lg:rounded-lg'>Referencias para a criação do projeto</h2>
-            <p>O primeiro artigo destaca como a tecnologia está<br/>  beneficiando a saúde, e explora o <br/> desenvolvimento de novos materiais e novas<br/> ferramentas, transformando e inovando a <br/> área dasaúde.</p>
-            <p>O segundo artigo vai falar sobre os avanços<br/> da tecnologia na área da saúde. O instituto<br/> IAM é uma comunidade dedicada a pesquisa<br/> do desenvolvimento de sistemas onde foram<br/> feitos testes que possibilitaram a aplicação<br/> de rôbos na medicina.</p>
-            <p>Já o terceiro artigo vai falar sobre como os<br/> rôbos reduzem drasticamente o tempo de<br/> execução das tarefas, impulsionando a<br/> eficiência operacional, não precisam de<br/> férias ou adoecem, garantindo operações<br/> continuas e consistentes e eles também<br/> mantêm precisão constante evitando falhas.</p>
+            <p>    De acordo com as vastas pesquisas que fizemos,<br/> observamos que a tecnologia tem gerado <br/>impactos positivos significativos na área <br/> da saúde. O desenvolvimento de novos <br/> materiais e ferramentas está transformando o setor ao <br/> proporcionar soluções que melhoram tanto a qualidade <br/> quanto a eficiência dos cuidados médicos,<br/> impulsionando avanços notáveis. </p>
+            <p>As pesquisas também destacam o trabalho do instituto ,<br/> IAM, uma comunidade dedicada à <br/>pesquisa e desenvolvimento de sistemas <br/> tecnológicos aplicados à medicina. Através<br/> de testes pioneiros, o instituto<br/> possibilitou a inserção de robô0s <br/>em procedimentos médicos, representando <br/>um marco importante na prática médica moderna.</p>
+            <p>Além disso, identificamos que a introdução<br/> de robôs na saúde tem revolucionado a eficiência<br/> operacional. Com precisão constante,<br/> esses robôs executam tarefas de forma <br/>rápida e sem interrupções, uma vez <br/>que não necessitam de pausas ou são<br/> sujeitos a doenças. Essa capacidade de<br/> operar continuamente, aliada à redução<br/> de falhas, proporciona ganhos substanciais para<br/> o setor de saúde.</p>
           </div>
           <div className='ml-12 flex items-center justify-center'>
             <img src={img2} alt="" className='hidden sm:block' />

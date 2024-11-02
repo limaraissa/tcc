@@ -25,7 +25,8 @@ export default function App() {
                         
                                 <div className="bg-bluee  p-6 rounded-lg shadow-lg ">
                                     <h2 className="text-reed text-2xl font-bold mb-4 font-montserrat font-light">Monitoramento Cardíaco</h2>
-                                        <p className="text-white text-sm">O monitoramento cardíaco é essencial para acompanhar a saúde do coração, detectando irregularidades no ritmo, avaliando a eficácia dos tratamentos e prevenindo eventos graves. Ele ajuda a identificar problemas precoces, ajustar tratamentos e melhorar a gestão de condições cardíacas, promovendo uma saúde cardiovascular mais eficaz e segura. </p>
+                                        <p className="text-white text-sm">O monitoramento cardíaco é essencial para acompanhar a saúde do coração, detectando irregularidades no ritmo, avaliando a eficácia dos tratamentos e prevenindo eventos graves. Ele ajuda a identificar problemas precoces, ajustar tratamentos e melhorar a gestão de condições cardíacas, promovendo uma saúde cardiovascular mais eficaz e segura. E manter o coração no ritmo ideal é importante não apenas para evitar problemas cardiovasculares — como insuficiência cardíaca e infarto —, mas também para manter todo o organismo funcionando corretamente. Afinal, o sistema cardiovascular é o responsável por transportar, através do sangue, oxigênio e nutrientes para todo o corpo.
+                                        </p>
                                 </div>
 
                                 <div className="bg-bluee p-6 rounded-lg shadow-lg">
@@ -35,13 +36,14 @@ export default function App() {
 
                                 <div className="bg-bluee p-6 rounded-lg shadow-lg ">
                                     <h1 className="text-reed text-2xl font-bold mb-4 font-montserrat font-light">Boneco interativo </h1>
-                                    <p className="text-white text-sm">O boneco interativo foi projetado para ser mais do que um simples brinquedo; ele é uma companhia que visa proporcionar conforto e engajamento. Com funcionalidades que permitem conversas, respostas a comandos e até mesmo reações emocionais, o boneco cria uma experiência personalizada e acolhedora. Seja para aliviar o estresse, oferecer companhia ou estimular interações lúdicas, ele se adapta às necessidades do usuário, promovendo um sentimento de bem-estar e conexão. </p>
+                                    <p className="text-white text-sm">O boneco interativo foi projetado para ser mais do que um simples brinquedo; ele é uma companhia que visa proporcionar conforto e tranquilidade. Além disso, a interação foi cuidadosamente desenvolvida para distrair a criança de maneira envolvente, criando momentos de diversão e ajudando a aliviar o estresse do dia a dia.</p>
                                 </div>
 
                                 <div className="bg-bluee p-6 rounded-lg shadow-lg">
                                     <h1 className="text-reed text-2xl font-bold mb-4 font-montserrat font-light">Suporte Emocional</h1>
                                     <img className="lg:float-right flex mb-16 min-[400px]:hidden " src={Coracao} alt="" />
-                                    <p className="text-white text-sm">O suporte emocional é vital para a saúde e o desenvolvimento de uma criança. Oferecer compreensão, carinho e encorajamento ajuda a construir sua autoestima e resiliência, permitindo que ela enfrente desafios e estresses de forma mais eficaz. Esse apoio promove um ambiente seguro e acolhedor, essencial para o bem-estar emocional e mental, facilitando um crescimento saudável e equilibrado. Em resumo, o suporte emocional fortalece a saúde geral da criança, contribuindo para uma base sólida para seu futuro.</p>
+                                    <p className="text-white text-sm">O suporte emocional é vital para a saúde e o desenvolvimento de uma criança. Oferecer compreensão, carinho e encorajamento ajuda a construir sua autoestima e resiliência, permitindo que ela enfrente desafios e estresses de forma mais eficaz. Esse apoio promove um ambiente seguro e acolhedor, essencial para o bem-estar emocional e mental, facilitando um crescimento saudável e equilibrado. Em resumo, o suporte emocional fortalece a saúde geral da criança, contribuindo para uma base sólida para seu futuro. Muitas crianças autistas têm dificuldades em lidar com ambientes hospitalares e com exames feitos por desconhecidos. Um robô amigável, que elas podem ver como um "amigo" ou "ajudante," torna o monitoramento menos estressante e evita situações desconfortáveis.
+                                    </p>
                                 </div>
                         </div>
                     </div>
@@ -63,10 +65,11 @@ export default function App() {
                         <div className="bg-bluee p-6 rounded-lg shadow-lg">
                             <h2 className="text-reed text-2xl font-bold mb-4 font-montserrat font-light">Instrução 2</h2>
                             <p className="text-white text-sm">
-                               Coloque seu braço no sensor de temperatura e retire quando ouvir um apito do buzzer.
+                               Conecte via bluetooth com o nosso aplicativo, Procure pelo nome HC-06, após conectar já poderá visualizar sua temperatura e seus batimentos cardiacos.
                             </p>
                         </div>
                     </div>
+
                     
 
                     <div class="mt-14 max-w-4xl w-full mx-auto">
